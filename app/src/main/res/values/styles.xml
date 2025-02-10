@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="firstColonneVariation" parent="TextAppearance.AppCompat">
+        <item name= "android:layout_marginTop" >40dp</item>
+        <item name="android:layout_marginRight">230dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:background">@drawable/shape_rounder</item>
+    </style>
+    <style name="secondColoniumVar" parent="TextAppearance.AppCompat">
+        <item name= "android:layout_marginTop" >40dp</item>
+        <item name="android:layout_marginRight">150dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:background">@drawable/shape_rounder</item>
+    </style>
+    <style name="thirstColoinumVar" parent="TextAppearance.AppCompat" >
+        <item name= "android:layout_marginTop" >40dp</item>
+        <item name="android:layout_marginEnd">35dp</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:background">@drawable/shape_rounder</item>
+    </style>
+</resources>

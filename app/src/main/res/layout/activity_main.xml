@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true"
+    android:background="#F1B3B3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="sounds"
+        android:textAllCaps="true"
+        android:textColor="#B04141"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/anton"/>
+
+    <ImageView
+        android:id="@+id/ivCat"
+        android:src="@drawable/cat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        style="@style/firstColonneVariation"/>
+
+    <ImageView
+        android:id="@+id/ivDog"
+        android:src="@drawable/dog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivCat"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        style="@style/secondColoniumVar"
+        />
+
+    <ImageView
+        android:id="@+id/ivLion"
+        style="@style/thirstColoinumVar"
+        android:src="@drawable/lion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivDog"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/IvBird"
+        style="@style/firstColonneVariation"
+        android:src="@drawable/birld"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCat" />
+
+    <ImageView
+        android:id="@+id/ivPig"
+        style="@style/secondColoniumVar"
+        android:src="@drawable/pig"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/IvBird"
+        app:layout_constraintTop_toBottomOf="@+id/ivDog" />
+
+    <ImageView
+        android:id="@+id/ivElephant"
+        style="@style/thirstColoinumVar"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/elephant"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toEndOf="@+id/ivPig"
+        app:layout_constraintTop_toBottomOf="@+id/ivLion" />
+
+    <ImageView
+        android:id="@+id/ivFrog"
+        style="@style/firstColonneVariation"
+        android:src="@drawable/frog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IvBird" />
+
+    <ImageView
+        android:id="@+id/ivGoose"
+        style="@style/secondColoniumVar"
+        android:src="@drawable/goose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivFrog"
+        app:layout_constraintTop_toBottomOf="@+id/IvBird" />
+
+    <ImageView
+        android:id="@+id/ivFox"
+        style="@style/thirstColoinumVar"
+        android:src="@drawable/fox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivGoose"
+        app:layout_constraintTop_toBottomOf="@+id/ivElephant"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
